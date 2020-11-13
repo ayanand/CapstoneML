@@ -287,7 +287,7 @@ select round(lat,2) latitude,
 from `x-cycling-293802.capstoragedataset2020.property_geo` a,`x-cycling-293802.capstoragedataset2020.property_raw` b
 where a.uid = b.id_uev
 group by round(lat,2) , round(long,2)
- limit 10
+-- limit 10
  
  
  
